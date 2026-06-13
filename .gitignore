@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Build outputs
+build/
+.build/
+dist/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# App/DMG outputs
+*.app
+*.dmg
+*.xcarchive
+*.dSYM
+
+# CMake/Ninja/Xcode
+.ninja_*
+build.ninja
+*.xcodeproj
+DerivedData/
+
+# Local/editor
+.vscode/
+.idea/
+*.swp
+*.tmp
