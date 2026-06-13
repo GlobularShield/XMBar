@@ -575,7 +575,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
         "Configuracion de los auriculares...": "Headphone settings...",
         "Configuracion de Sonido...": "Sound Settings...",
         "Salir": "Quit",
-        "By Globular · V0.82": "By Globular · V0.82",
+        "By Globular · V0.84": "By Globular · V0.84",
         "Que hace esta opcion": "What does this option do?",
         "XMBar necesita permiso para atajos globales": "XMBar needs permission for global shortcuts",
         "Abrir Configuracion": "Open Settings",
@@ -3400,7 +3400,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
     }
 
     private func appVersionString() -> String {
-        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.82"
+        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.84"
     }
 
     @objc private func showAboutXMBar(_ sender: Any?) {

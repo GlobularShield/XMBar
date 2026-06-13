@@ -6,7 +6,7 @@ It focuses on a small, native macOS experience: noise control, ambient level, ba
 
 ## Status
 
-Current public-prep version: **0.83**.
+Current public-prep version: **0.84**.
 
 Tested primarily with WH-1000XM5-class headphones. Other MDR-compatible devices may work, but unsupported features are hidden when XMBar can detect that the current model does not expose them.
 
@@ -100,8 +100,19 @@ XMBar/
 
 Generated folders such as `build/`, `.build/`, `dist/`, `.app`, `.dmg`, and mounted DMG artifacts are intentionally ignored.
 
+## Acknowledgements
+
+XMBar uses MDR/libmdr support based on the work from the SonyHeadphonesClient project.
+
+Special thanks to:
+
+- [mos9527/SonyHeadphonesClient](https://github.com/mos9527/SonyHeadphonesClient), the current repository used as the MDR reference for this project.
+- [Plutoberth/SonyHeadphonesClient](https://github.com/Plutoberth/SonyHeadphonesClient), for earlier work and maintenance of the SonyHeadphonesClient project.
+
+XMBar would not be possible without the reverse-engineering and maintenance work done by the SonyHeadphonesClient community.
+
 ## Credits
 
-XMBar is maintained by Globular and uses the bundled MDR protocol implementation in `libmdr`.
+XMBar is maintained by Globular.
 
 `libmdr` uses `fmt` and includes attribution notes in `libmdr/README.md`. See `LICENSE` and `NOTICE.md` before redistributing.

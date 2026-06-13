@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.84
+
+- Restored and clarified the README acknowledgements section for MDR/libmdr and project testers.
+- Updated app metadata to version 0.84.
+
 ## 0.83
 
 - Build scripts now detect and clean stale CMake caches automatically after moving or cloning the repository to a new path.
